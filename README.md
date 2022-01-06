@@ -14,12 +14,17 @@ Gophish: Open-Source Phishing Toolkit
 Installation of Gophish is dead-simple - just download and extract the zip containing the [release for your system](https://github.com/gophish/gophish/releases/), and run the binary. Gophish has binary releases for Windows, Mac, and Linux platforms.
 
 ### Building From Source
+
 **If you are building from source, please note that Gophish requires Go v1.10 or above!**
 
 To build Gophish from source, simply run ```go get github.com/gophish/gophish``` and ```cd``` into the project source directory. Then, run ```go build```. After this, you should have a binary called ```gophish``` in the current directory.
 
-### Docker
-You can also use Gophish via the official Docker container [here](https://hub.docker.com/r/gophish/gophish/).
+### Setup
+
+### GODaddy
+
+### AWS
+
 
 ### Setup
 After running the Gophish binary, open an Internet browser to https://localhost:3333 and login with the default username and password listed in the log output.
